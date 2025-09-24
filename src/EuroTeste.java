@@ -8,7 +8,7 @@ public class EuroTeste {
         System.out.println("DIGITE O PREÇO DO EURO: ");
         double europrc = sc.nextDouble();
 
-        System.out.println("QUANTIDADE DE EUROS: ");
+        System.out.println("QUANTIDADE DE EUROS QUE DESEJA COMPRAR: ");
         double euroqtd = sc.nextDouble();
 
         System.out.println("VALOR FINAL QUE VOCÊ VAI PAGAR: " + Euro.euroresultado(europrc, euroqtd));
