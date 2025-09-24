@@ -5,7 +5,7 @@ public class EuroTeste {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("PREÇO DO EURO: ");
+        System.out.println("DIGITE O PREÇO DO EURO: ");
         double europrc = sc.nextDouble();
 
         System.out.println("QUANTIDADE DE EUROS: ");
