@@ -11,7 +11,7 @@ public class EuroTeste {
         System.out.println("QUANTIDADE DE EUROS: ");
         double euroqtd = sc.nextDouble();
 
-        System.out.println("VALOR FINAL: " + Euro.euroresultado(europrc, euroqtd));
+        System.out.println("VALOR FINAL QUE VOCÊ VAI PAGAR: " + Euro.euroresultado(europrc, euroqtd));
 
 
         sc.close();
